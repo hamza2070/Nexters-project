@@ -1,0 +1,29 @@
+.footer{
+    background-color: $color-secondary;
+    padding: 8rem 8vw;
+}
+.nav{
+    list-style: none;
+display: grid;
+grid-template-columns: repeat(6,1fr);
+text-align: center;
+    &-link{font-weight: 700;
+        font-size:.8rem;
+        text-transform: uppercase;
+        color: rgb(168, 168, 168);
+        text-decoration: none;
+        padding: 1rem;
+        transition: all .2s;
+    }
+
+    &-link:hover{
+        color: #fff;
+        background-color: rgba(#fff ,0.05);
+        transform: translateY(-3px);
+    }
+}
+.copyright{
+    padding: 6rem;
+    text-align: center;
+padding-bottom: 3rem;
+}

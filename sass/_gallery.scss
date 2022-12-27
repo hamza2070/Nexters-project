@@ -1,0 +1,37 @@
+.gallery{
+    grid-column: full-start/full-end;
+    max-width: 100%;
+}
+.img{
+    border: 15px solid $color-grey-light-1;
+    display: grid;
+    grid-template-columns: repeat(7,150px);
+    grid-template-rows: repeat(8,150px);
+        align-items: stretch;      
+grid-gap: 15px;
+    grid-template-areas: 
+    "gal-1 gal-1 gal-2 gal-2 gal-2 gal-3 gal-3 gal-3"
+    "gal-1 gal-1 gal-2 gal-2 gal-2 gal-3 gal-3 gal-3"
+    "gal-5 gal-5 gal-2 gal-2 gal-2 gal-8 gal-8 gal-8"
+    "gal-5 gal-5 gal-6 gal-6 gal-7 gal-7 gal-10 gal-10"
+    "gal-5 gal-5 gal-6 gal-6 gal-7 gal-7 gal-10 gal-10"
+    "gal-9 gal-9 gal-9 gal-11 gal-11 gal-11 gal-10 gal-10"
+    "gal-9 gal-9 gal-9 gal-11 gal-11 gal-11 gal-14 gal-14"
+    "gal-9 gal-9 gal-9 gal-12 gal-12 gal-13 gal-13 gal-13";
+
+
+    &-1{grid-area: gal-1;}
+    &-2{grid-area: gal-2;}
+    &-3{grid-area: gal-3;}
+    &-4{grid-area: gal-3;} 
+    &-5{grid-area: gal-5;}
+    &-6{grid-area: gal-6;}
+    &-7{grid-area: gal-7;}
+    &-8{grid-area: gal-8;}
+    &-9{grid-area: gal-9;}
+    &-10{grid-area: gal-10;}
+    &-11{grid-area: gal-11;}
+    &-12{grid-area: gal-12;}
+    &-13{grid-area: gal-13;}
+    &-14{grid-area: gal-14;}
+}

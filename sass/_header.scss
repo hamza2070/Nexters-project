@@ -1,0 +1,43 @@
+.header{
+grid-column: full-start/6 col-end;
+height: 30rem;
+background-image:linear-gradient(rgba($color-secondary,0.9),rgba($color-secondary,0.9)) ;
+background-size: cover; 
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+padding: 0rem;
+justify-content: space-between;
+text-align: center;
+*{
+    padding:1rem;
+}
+&-logo{
+height: 3rem;
+align-self: center;
+padding: 0;
+margin: 2rem;
+}
+&-btn{
+  justify-self: start;
+  align-self: start;
+  margin-left: 11vw;
+}
+
+&-seenon{
+    &-text{
+        color: #fff;
+        align-self: center;margin-top: 5vh;
+
+    }
+    &-logos{
+img{
+    height: 1.5rem;
+    padding: 0;
+    margin: 0rem 1rem 2rem 1rem;
+align-self: center;
+
+}
+    }
+}
+}
